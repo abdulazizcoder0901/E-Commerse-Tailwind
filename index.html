@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce-Devices</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- /Tailwind CSS -->
+    <!-- Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="Image/TV.png" />
+    <!-- /Links -->
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <section
+      class="w-full h-[70px] shadow-sm px-5 flex items-center justify-start md:justify-evenly md:px-0 fixed top-0 z-10 bg-white"
+    >
+      <a href="#">
+        <img src="Image/Logo.png" alt="Just Logo" />
+      </a>
+      <div class="flex text-black font-semibold hidden md:gap-10 md:flex">
+        <a
+          class="text-blue-600 hover:text-red-500 hover:scale-110 duration-500"
+          href="#"
+          >Home</a
+        >
+        <a
+          class="hover:text-red-500 hover:scale-110 duration-500 ease-in-out"
+          href="#category"
+          >About</a
+        >
+        <a
+          class="hover:text-red-500 hover:scale-110 duration-500 ease-in-out"
+          href="#contact"
+          >Company</a
+        >
+        <a
+          class="hover:text-red-500 hover:scale-110 duration-500 ease-in-out"
+          href="#plan"
+          >Pages</a
+        >
+        <a
+          class="hover:text-red-500 hover:scale-110 duration-500 ease-in-out"
+          href="#blog"
+          >Blog</a
+        >
+        <a
+          class="hover:text-red-500 hover:scale-110 duration-500 ease-in-out"
+          href="#shop"
+          >Shop</a
+        >
+      </div>
+      <button
+        class="px-5 py-2 bg-black text-white rounded-3xl relative group overflow-hidden hidden md:block"
+      >
+        <span
+          class="absolute bg-blue-500 w-full h-0 top-[50%] left-0 group-hover:h-full duration-500 ease-out"
+        ></span>
+        <span
+          class="absolute bg-blue-500 w-full h-0 bottom-[50%] right-0 group-hover:h-full duration-500 ease-out"
+        ></span>
+
+        <span
+          class="absolute bg-green-500 w-0 h-full left-[50%] top-0 group-hover:w-full duration-700 ease-out delay-500"
+        ></span>
+        <span
+          class="absolute bg-green-500 w-0 h-full right-[50%] bottom-0 group-hover:w-full duration-700 ease-out delay-500"
+        ></span>
+        <span class="relative">Get Started</span>
+      </button>
+    </section>
+    <!-- /Navbar Section -->
+
+    <!-- Main Section -->
+    <section class="lg:flex lg:justify-evenly mt-10 lg:mt-24">
+      <div class="text-center lg:text-start">
+        <p class="text-3xl font-semibold text-gray-400">
+          Exclusive Smart Watch
+        </p>
+        <p class="my-8 lg:my-10 text-4xl sm:text-5xl font-semibold">
+          Let go of the Challenge <br />
+          See yourself better
+        </p>
+        <p class="w-100 lg:w-[520px] px-2 lg:px-0 font-semibold text-gray-600">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+          fuga ullam temporibus eveniet delectus nemo.
+        </p>
+        <button
+          class="px-8 py-3 my-5 lg:my-10 bg-blue-900 rounded-2xl text-white relative group overflow-hidden"
+        >
+          <span
+            class="absolute bg-green-500 w-full h-0 top-[50%] left-0 group-hover:h-full duration-500 ease-out"
+          ></span>
+          <span
+            class="absolute bg-green-500 w-full h-0 bottom-[50%] right-0 group-hover:h-full duration-500 ease-out"
+          ></span>
+          <span class="text-white relative"> Get Started</span>
+          <i class="fa-solid fa-arrow-right relative"></i>
+        </button>
+        <button
+          class="px-8 py-3 my-2 lg:my-10 bg-transparent rounded-xl relative group overflow-hidden"
+        >
+          <span
+            class="absolute bg-gray-200 w-0 h-full left-[50%] top-0 group-hover:w-full duration-500 ease-in-out"
+          ></span>
+          <span
+            class="absolute bg-gray-200 w-0 h-full right-[50%] bottom-0 group-hover:w-full duration-500 ease-in-out"
+          ></span>
+          <span class="relative">How it works</span>
+          <i class="fa-solid fa-arrow-right relative"></i>
+        </button>
+        <div
+          class="my-5 flex gap-8 lg:gap-12 justify-center lg:justify-start flex-wrap md:flex-nowrap"
+        >
+          <div class="flex items-center gap-4">
+            <img src="Image/Lamp.png" alt="Just Picture" />
+            <div>
+              <p class="text-3xl font-semibold">+12k</p>
+              <p class="font-semibold">Projects done</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <img src="Image/Glass.png" alt="Just Image" />
+            <div>
+              <p class="text-3xl font-semibold">68k</p>
+              <p class="font-semibold">Customers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative pt-24 lg:pt-16 flex justify-center lg:flex-none">
+        <div>
+          <img
+            class="absolute lg:left-32 top-16 lg:top-0"
+            src="Image/main-circle1.png"
+            alt="Just Circle"
+          />
+        </div>
+        <div>
+          <img src="Image/Smart Watch.png" alt="Just Watch" />
+        </div>
+        <div>
+          <img
+            class="absolute hidden lg:block lg:left-44 top-72"
+            src="Image/Statistics.png"
+            alt="Just view"
+          />
+        </div>
+        <div>
+          <img
+            class="absolute hidden lg:block top-12 lg:left-[-100px]"
+            src="Image/main-circle2.png"
+            alt="Just Image"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- /Main Section -->
+
+    <!-- Sale Cards -->
+    <section id="blog" class="my-12 lg:my-28">
+      <div
+        class="flex justify-center gap-10 lg:gap-5 items-center flex-wrap lg:flex-nowrap"
+      >
+        <div class="px-2 py-7 flex gap-2 border items-center rounded-lg">
+          <img src="Image/TV.png" alt="Just TV" />
+          <div>
+            <p class="font-semibold">
+              Lorem ipsum dolor sit amet <br />
+              consectetur adipisicing elit elit.
+            </p>
+            <p class="text-gray-400">$29.80</p>
+          </div>
+        </div>
+
+        <div class="flex px-3 py-6 gap-2 border items-center rounded-lg">
+          <img src="Image/Headphones-1.png" alt="Just TV" />
+          <div>
+            <p class="font-semibold">
+              Lorem ipsum dolor sit amet <br />
+              consectetur adipisicing elit elit.
+            </p>
+            <p class="text-gray-400">$40.00</p>
+          </div>
+        </div>
+
+        <div class="flex px-2 py-5 gap-2 border items-center rounded-lg">
+          <img src="Image/mainheadphones2.png" alt="Just TV" />
+          <div>
+            <p class="font-semibold">
+              Lorem ipsum dolor sit amet <br />
+              consectetur adipisicing elit elit.
+            </p>
+            <p class="text-gray-400">$96.50</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Sale Cards -->
+
+    <!-- Product Cards -->
+    <section id="shop" class="my-20 lg:my-28">
+      <h1
+        class="text-center my-5 text-3xl sm:text-4xl lg:text-5xl font-semibold"
+      >
+        Featured Products <br />
+        For Pre-Order
+      </h1>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 px-5 sm:px-10 xl:px-40 my-10"
+      >
+        <div
+          class="border px-3 py-6 rounded-lg duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center my-1">
+            <img src="Image/product-one.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Sony</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$39.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="border px-3 py-6 rounded-lg duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center my-1">
+            <img src="Image/product2.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Google</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum elit <br />
+            adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$69.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+        </a>
+          </div>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg relative duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center my-3">
+            <img src="Image/headphones2.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Apple</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$69.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+          <p
+            class="absolute top-3 border px-3 bg-black text-white rounded-2xl text-xs"
+          >
+            -15
+          </p>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg relative duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center my-4">
+            <img src="Image/product4.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Toshiba</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$70.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+          <p
+            class="absolute top-3 border px-3 bg-black text-white rounded-2xl text-xs"
+          >
+            -20
+          </p>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg relative duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center">
+            <img src="Image/product5.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">BassX</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$80.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+          <p
+            class="absolute top-3 border px-3 bg-black text-white rounded-2xl text-xs"
+          >
+            -10
+          </p>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg relative duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center my-2">
+            <img src="Image/product6.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Konika</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$69.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+          <p
+            class="absolute top-3 border px-3 bg-black text-white rounded-2xl text-xs"
+          >
+            -15
+          </p>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center">
+            <img src="Image/product7.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Apple</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$39.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center">
+            <img src="Image/product8.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Toshiba</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$90.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center my-2">
+            <img src="Image/product9.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">BlassX</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$69.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg relative duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center">
+            <img src="Image/product10.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Konika</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$29.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+          <p
+            class="absolute top-3 border px-3 bg-black text-white rounded-2xl text-xs"
+          >
+            -25
+          </p>
+        </div>
+        <div
+          class="border px-3 py-6 rounded-lg duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center my-5">
+            <img src="Image/product11.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Toshiba</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$69.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add+
+            </a>
+          </div>
+        </div>
+        <div
+          class="relative border px-3 py-6 rounded-lg relative duration-700 ease-in-out hover:scale-[1.030] hover:shadow-lg"
+        >
+          <div class="flex justify-center my-5">
+            <img src="Image/product12.png" alt="Just Watch" />
+          </div>
+          <p class="text-sm text-gray-400">Apple</p>
+          <p class="font-semibold">
+            Lorem ipsum dolor ipsum <br />
+            elit adipisicing elit. Sapientel.
+          </p>
+          <div class="text-yellow-300">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star text-gray-200"></i>
+          </div>
+          <div
+            class="flex justify-between items-center text-green-800 font-semibold my-3"
+          >
+            <p>$69.80</p>
+            <a href="./Book.html" target="_blank"
+              class="text-sm border px-3 rounded-md bg-green-100 border-0"
+            >
+              Add +
+            </a>
+          </div>
+          <p
+            class="absolute top-3 border px-3 bg-black text-white rounded-2xl text-xs"
+          >
+            -35
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- /Product Cards -->
+
+    <!-- Category Section -->
+    <section id="category" class="mb-16 lg:mb-12">
+      <p class="font-bold text-4xl text-center py-7">Explore by Categories.</p>
+      <p class="text-center font-semibold text-gray-500 pb-12">
+        We provide many category, choose a category according <br />
+        to your experties to make it easier to find a job.
+      </p>
+      <div class="px-10 lg:px-36 xl:grid grid-cols-1 lg:grid-cols-2">
+        <div class="border w-100 xl:w-[500px] rounded-lg px-7 py-10 mb-8 xl:mb-0">
+          <h1 class="text-2xl font-bold py-5">Popular Categories</h1>
+          <p class="relative border-b py-3 text-lg text-gray-400">
+            Computer-Laptop
+            <span
+              class="absolute right-0 w-8 h-8 px-[7px] py-0.5 font-semibold rounded-full text-green-500 bg-green-100"
+              >10</span
+            >
+          </p>
+          <p class="relative border-b py-3 text-lg text-gray-400">
+            Smartphone - Tablets
+            <span
+              class="absolute right-0 w-8 h-8 px-[7px] py-0.5 font-semibold rounded-full text-green-500 bg-green-100"
+            >
+              12
+            </span>
+          </p>
+          <p class="relative border-b py-3 text-lg text-gray-400">
+            Fashion - Accessories
+            <span
+              class="absolute right-0 w-8 h-8 px-[7px] py-0.5 font-semibold rounded-full text-green-500 bg-green-100"
+            >
+              14
+            </span>
+          </p>
+          <p class="relative py-3 text-lg text-gray-400">
+            Health -Beauty
+            <span
+              class="absolute right-0 w-8 h-8 px-2.5 py font-semibold rounded-full text-green-500 bg-green-100"
+            >
+              8
+            </span>
+          </p>
+        </div>
+        <div class="grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-10">
+          <div
+            class="flex items-center gap-3 border rounded-lg p-5 font-semibold"
+          >
+            <img src="Image/TV2.png" alt="Just TV" />
+            <span>Computer for Designer,Art</span>
+          </div>
+          <div
+            class="border rounded-lg flex items-center p-7 justify-center font-semibold"
+          >
+            <p>Sport, Home, Outdoor</p>
+          </div>
+          <div
+            class="border rounded-lg flex items-center gap-3 p-5 font-semibold"
+          >
+            <img src="Image/Laptop.png" alt="Just Laptop" />
+            <span> Laptop for office,students </span>
+          </div>
+          <div
+            class="border rounded-lg flex items-center gap-3 p-5 font-semibold"
+          >
+            <img src="Image/book.png" alt="Just Book" />
+            <span> Software, Card, Book </span>
+          </div>
+          <div
+            class="border rounded-lg flex items-center p-6 xl:p-0 justify-center gap-3 font-semibold"
+          >
+            <img src="Image/rocket.png" alt="Just Rocket" />
+            <span> Explore More </span>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-16 xl:mt-28">
+        <a href="#">
+          <button
+          class="border rounded-full px-5 py-2 bg-orange-200 text-orange-600 border-0 duration-700 hover:scale-105 hover:bg-orange-300"
+        >
+          How it Work ?
+        </button>
+        </a>
+      </div>
+    </section>
+    <!-- /Category Section -->
+
+    <!-- Plan Section -->
+    <section id="plan" class="mb-10 lg:mb-24">
+      <p class="text-center mb-12 md:text-4xl lg:text-5xl text-3xl font-semibold">
+        Cross-border ordering has <br> never been easier
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-32 gap-5">
+        <div>
+          <img src="Image/connect.png" alt="Just Image">
+        </div>
+        <div>
+          <img src="Image/match.png" alt="Just Image">
+        </div>
+        <div>
+          <img src="Image/reviiew.png" alt="Just View">
+        </div>
+        <div>
+          <img src="Image/complete.png" alt="Just Image">
+        </div>
+      </div>
+    </section>
+    <!-- /Plan Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="mt-16 lg:mt-40 mb-10">
+      <div class="xl:bg-[url('./Image/bg.png')] lg:flex justify-around items-center bg-no-repeat bg-cover lg:mx-28 mx-16">
+        <div class="text-center lg:text-start">
+          <p class="text-4xl font-semibold mb-5">
+            Subscribe our newsletter
+          </p>
+          <p class="font-semibold text-gray-400 mb-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, <br> eveniet.
+          </p> 
+          <form action="index.html" class="my-5 mx-5 sm:mx-20 md:mx-44 lg:mx-0 border px-7 w-100 lg:w-80 py-1 flex justify-between items-center rounded-full font-semibold">
+            <label for="email"></label>
+            <input class="bg-transparent outline-0" type="email" id="email" placeholder="Enter your email...">
+            <i class="fa-solid fa-arrow-right p-4 rounded-full bg-blue-800 text-white cursor-pointer duration-700 hover:scale-105"></i>
+          </form>
+        </div>
+        <div class="relative flex justify-center lg:flex-none">
+          <img class="hidden lg:inline lg:absolute bottom-5 right-[200px]" src="Image/Statistics.png" alt="Just Image">
+          <img src="Image/team.png" alt="Just Image">
+        </div>
+      <!-- </div> -->
+    </section>
+    <!-- /Contact Section -->
+
+    <!-- Footer Section -->
+    <section class="mb-10">
+      <div class="md:flex justify-between px-16 lg:px-36 lg:mb-10 mb-5">
+        <div>
+          <a href="#">
+            <img src="Image/Logo.png" alt="Just Image">
+          </a>
+        </div>
+        <div class="sm:flex items-center gap-5">
+          <p class="text-sm font-semibold">
+            Ready to get started?
+          </p>
+          <button class="border px-4 py-2 rounded-full bg-black text-white text-sm flex items-center gap-3 hover:scale-105 hover:bg-green-500 duration-700">
+            Create an Account
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="mx-28 lg:mx-36 py-10 border-b border-t list-none grid grid-cols-5 hidden lg:grid flex items-center">
+        <div class="flex flex-col gap-1 text-sm font-semibold">
+          <p class="font-semibold text-lg">
+            Contact
+          </p>
+          <p class="text-gray-400">
+            Lorem ipsum dolor. <br> consectetur adipis elit.
+          </p>
+          <p class="text-gray-600">
+            (255)8659 887 79
+          </p>
+          <a class="text-blue-600" href="#">
+            contact@agon.com
+          </a>
+          <div class="flex gap-5 text-lg text-gray-700">
+              <a class="duration-700 hover:scale-110 hover:text-green-500" href="https://Telegram/Web_DDeveloper001" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a class="duration-700 hover:scale-110 hover:text-green-500" href="https://instagram.com/abdulaziz18_21" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a class="duration-700 hover:scale-110 hover:text-green-500" href="https://Facebook.com/abdulaziz19_20" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a class="duration-700 hover:scale-110 hover:text-green-500" href="https://Linkedin.com/abdulaziz" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+          </div>
+        </div>
+        <div class="flex flex-col gap-1 text-sm font-semibold text-gray-400">
+          <p class="text-lg font-semibold text-black">
+            About Us
+          </p>
+          <li>
+            <a href="#">About V1</a>
+          </li>
+          <li>
+            <a href="#">About V2</a>
+          </li>
+          <li>
+            <a href="#">About V3</a>
+          </li>
+          <li>
+            <a href="#">Services V1</a>
+          </li>
+          <li>
+            <a href="#">Services V2</a>
+          </li>
+        </div>
+        <div class="flex flex-col gap-1 text-sm font-semibold text-gray-400">
+          <p class="text-lg font-semibold text-black">
+            Discover
+          </p>
+          <li>
+            <a href="#">Our Blog</a>
+          </li>
+          <li>
+            <a href="#">Our Blog V1</a>
+          </li>
+          <li>
+            <a href="#">Our Blog V2</a>
+          </li>
+          <li>
+            <a href="#">Blog Single</a>
+          </li>
+          <li>
+            <a href="#">Page 404</a>
+          </li>
+        </div>
+        <div class="flex flex-col gap-1 text-sm font-semibold text-gray-400">
+          <p class="text-lg font-semibold text-black">
+            Support
+          </p>
+          <li>
+            <a href="#">FAQS</a>
+          </li>
+          <li>
+            <a href="#">FAQ V2</a>
+          </li>
+          <li>
+            <a href="#">Career</a>
+          </li>
+          <li>
+            <a href="#">Career Detail</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </div>
+        <div class="flex flex-col gap-1 text-sm font-semibold text-gray-400">
+          <p class="text-lg font-semibold text-black">
+            Useful links
+          </p>
+          <li>
+            <a href="#">Shop</a>
+          </li>
+          <li>
+            <a href="#">Shop V2</a>
+          </li>
+          <li>
+            <a href="#">Pricing V1</a>
+          </li>
+          <li>
+            <a href="#">Pricing V2</a>
+          </li>
+          <li>
+            <a href="#">Terms & Conditions</a>
+          </li>
+        </div>
+      </div>
+      <div class="sm:flex justify-between items-center px-16 lg:px-36 lg:mt-5 text-gray-400">
+        <p class="text-lg font-semibold">
+          Agon Official 2023
+        </p>
+        <div class="sm:flex gap-4 text-sm">
+          <p>Privacy policy</p>
+          <p>Cookies</p>
+          <p>Terms of service</p>
+        </div>
+      </div>
+    </section>
+    <!-- /Footer Section -->
+  </body>
+</html>
